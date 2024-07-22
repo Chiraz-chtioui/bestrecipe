@@ -26,9 +26,9 @@ body {
     color: #7F7F7F;
  }
  .division2{
-    width:Hug (180px);
-    height:Hug (34px);
-    gap:39px;
+    width:25%;
+    gap:10px;
+    display: flex;
  }
  li.home{
     width:66px;
