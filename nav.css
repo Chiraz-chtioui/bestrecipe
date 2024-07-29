@@ -1,23 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
-*{
-    box-sizing: border-box;
+main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
  header h1 strong{
     color:red;
  }
+
  header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width:Fill (1,440px);
-    height:Hug (56px);
-    padding:10px;
-    gap:214px;
+    width:90%;
+    height:fit-content;
+    gap:10px;
  }
  .division1{
-    width:50%;
     gap:28px;
     display: flex;
     justify-content: center;
@@ -26,12 +35,11 @@ body {
     color: #7F7F7F;
  }
  .division2{
-    width:25%;
     gap:10px;
     display: flex;
  }
  li.home{
-    width:66px;
+    
     height:15;
     font:Inter;
     font-weight: 400;
@@ -39,7 +47,7 @@ body {
     line-height: 14.52px;
 }
 li.about{
-    width:35px;
+    
     height:15;
     font:Inter;
     fo
@@ -47,7 +55,7 @@ li.about{
     line-height: 14.52px;
 }
 li.categ{
-    width:53px;
+   
     height:15;
     font:Inter;
     weight:400;
@@ -55,7 +63,7 @@ li.categ{
     line-height: 14.52px;
 }
 li.blog{
-    width:26px;
+   
     height:15;
     font:Inter;
     weight:400;
@@ -63,7 +71,7 @@ li.blog{
     line-height: 14.52px;
 }
 li.face a{
-    width:34px;
+   
     height:34px;
 }
 nav ul{
@@ -73,146 +81,106 @@ nav ul{
 
 
 .box1{
-    width:Hug (1,242px);
-    height:Hug (539px);
-    padding:20px;
+    height:fit-content;
     gap:66px;
-    margin:40px 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box1 img{
-    width:658px;
-    height:499px;
-    margin:10px 10px 10px 10px;
 }
 .text1{
-    width: 400px;
+  
     height:Hug (285px) ;
     gap:16px;
-    margin-right: auto;
-    margin:100px 10px;
 }
 .text1 h6{
-    width:478px;
+  
     height:19px;
     font:small;
-    weight:400;
     size:16px;
     line-height: 19.36px;
-    margin: 5px;
-    width:fit-content;
+    
 }
 .text1 h1{
-    width:200px;
     height:126px;
     font-family: 'Poppins', sans-serif;
     font-weight:700;
     size: 48px;
     line-height: 63.41px;
-    margin: 5px;
-    width:fit-content;
     padding:0;
     height: fit-content;
 }
 .text1 h4{
-    width: 478px;
     height: 108px;
     font:Poppins;
-    weight:400;
     size: 24px;
     line-height: 36px;
-    width:fit-content;
-    margin: 5px;
 }
 .box2{
-    width:Fill (1,207px);
-    height:Hug (383px);
-    padding:20px;
-    gap:78px;
-    margin:40px 50px;
+    height:fit-content;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 .box2 h2{
-    width: 1207px;
     height: 48px;
+
     font-weight: 700;
     size: 32px;
     line-height: 48px;
-    margin: 2px 2px 2px 2px ;
     height: fit-content;
-    width: fit-content;
     padding: 0;
 }
 .frame{
-    width: Fill (1,207px);
-    height: Hug (383px);
-    gap: 78px;
     display: flex;
     justify-content:space-around ;
 }
 .frame-inner{
-    width: Fixed (350px);
-    height: Hug (383px);
-    gap: 12px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   gap: 5px;
+}
+.frame-sweettooth{
+    gap: 100px;px;
+    display: flex;
+    justify-content:space-between ;
 }
 .frame-inner img{
-    width: 350px;
     height: 300px;
 }
 .frame-etoile{
-    width: Hug (173px);
     height: Hug (29px);
     gap: 7px;
     display: flex;
     justify-content: flex-start;
 }
 .frame-etoile img{
-    width: 29px;
     height: 29px;
 }
 h3{
-    width: 350px;
     height: 30px;
     font-weight: 600;
     size: 20px;
     line-height: 30px;
 }
-.box3{
-    width: Hug (1,227px);
-    height:Hug (471px);
-    margin:40px 50px  ;
-    height: fit-content;
-    width: fit-content;
-    padding: 10px;
-    gap: 20px;
-}
-.box4{
-    width: Fixed (1,207px);
-    height:Hug (296px);
-    margin:40px 50px  ;
-    height: fit-content;
-    width: fit-content;
-    padding:10px, 0px, 10px, 0px;
-    gap:20;
-}
 .frame-p{
-    width: Hug (1,131px);
-    height: Hug (208px);
-    gap: 38px;
+    height:fit-content;
+    gap: 10px;
     display: flex;
+    justify-content: space-between;
 }
 .frame-inner-p{
-    width: Fixed (161px);
     height: Hug (208px);
     gap: 21px;
     height: fit-content;
-    width: fit-content;
 }
 .frame-inner-p img{
-    width: 156px;
     height: 157px;
 }
 .frame-inner-p h3{
-    width: 161px;
     height: 30px;
     font-weight: 600;
     size: 20px;
@@ -220,17 +188,16 @@ h3{
     text-align-last:  center;
 }
 .box5{
-    height: 461px;
-    padding:92px, 422px, 92px, 422px;
+    height: fit-content;
+    width: 100%;
     gap: 10px;
     background-color: #FFD7C9;
     display: flex;
     justify-content: center;
 }
 .mini-box{
-    width: Fixed (577px);
-    height: fixed (364px);
-    gap: 2px;
+    height: 400px;
+    gap: 10px;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -244,12 +211,10 @@ h3{
     align-content: center;
     color: black;
     font-size: 49px;
-    width: 50%;
     align-self: center;
     font-weight: 900;
 }
 .mini-box p{
-    width: 80%;
     height: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -262,36 +227,34 @@ h3{
 
 .email{
 display: flex;
-width: 64%;
-height: 41%;
+height: 50px;
+width:100% ;
 justify-content: center;
 align-items: center;
 align-self: center;
 }
 
 .emailbox{
-width: 75%;
-height: 30%;
+height: 100%;
+width: 80%;
 border: none;
 border-radius: 5px 0 0 5px;
 }
 .boutonEmail{
-width: 25%;
-height: 30%;
+height: 100%;
+width: 20%;
 border: none;
 border-radius: 0 5px 5px 0 ;
 background-color:#FF642F;
 color: #fff;
 }
 .HandPickedCollections{
-    width: Fixed (1,206px);
     height: Hug (1,585px);
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 .titleCollections{
-    width: 1206px;
     height: 48px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -302,17 +265,18 @@ color: #fff;
 
 .recipes {
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .recipesBoxes{
  display: flex;
  flex-direction: column;
+ width: 47%;
+ height: 600px;
 }
 .recipesBoxes img{
+    height:auto ;
     width: 100%;
-    height:70% ;
 }
 .lowerSection {
     display: flex;
@@ -323,19 +287,17 @@ color: #fff;
     justify-content: center;
     align-items: baseline;
     height: 30%;
-    width: 100%;
 }
 
 .lowerSection h1 {
-    width: 70%;
+    width: 65%;
 }
 
 .recipeButton {
+    width: 30%;
     height: 35%;
-    width: 20%;
 }
 .latestrecipes{
-    width: Fixed (1,206px);
     height: Hug (1,979px);
     display: flex;
     flex-direction: column;
@@ -343,7 +305,6 @@ color: #fff;
     justify-content: center;
 }
 .latestrecipestitle{
-    width: 100%;
     height: 10%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -352,34 +313,31 @@ color: #fff;
     color: #000000;
 }
 .boiteg{
-    width: 100%;
     height: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     gap: 37px;
 }
 .food{
+    height: fit-content;
     width: 100%;
-    height: 13.33%;
     display: flex;
-    gap: 15px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .boite{
-    width: 20%;
     height: 100%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     gap: 19px;
 }
 .boite img{
-    width: 100%;
     height: 75%;
     border-radius: 20px ;
 }
 .boite p{
-    width: 75%;
     height: 20%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -388,7 +346,6 @@ color: #fff;
     color: #000000;
 }
 .loadmore{
-    width: 100%;
     height: 25%;
     border-radius: 5px;
     border: 1px;
@@ -400,33 +357,31 @@ footer{
     background-color: #F9F9F9;
 }
 .footer{
+    height:fit-content;
     width: 100%;
-    height:400px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-   
+   margin-top: 30px;
+   margin-bottom: 30px;
     align-items: center;
 }
 .section1{
-    width: 80%;
-    height: 50%;
+    height: 70%;
+    width: 90%;
     display: flex;
     gap: 350px;
     justify-content: center;
     align-items: center;
 }
 .left{
-    width: 28%;
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 .right{
-    width: 50%;
     height: 75%;
     display: flex;
     gap: 65px;
@@ -435,7 +390,6 @@ footer{
     color: red;
 }
 .left h1{
-    width: 100%;
     height: 20%;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -446,7 +400,6 @@ footer{
     color: #7F7F7F;
 }
 .left p{
-    width: 100%;
     height: 65%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -461,7 +414,6 @@ li, a{
     
 }
 .lista{
-    width: 25%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -469,7 +421,6 @@ li, a{
     justify-content: center;
 }
 .sym{
-    width:50%;
     height: 15%;
     font-family: inherit;
     font-weight: 700;
@@ -477,19 +428,17 @@ li, a{
     line-height: 19.36px;
 }
 .section2{
-    width: 85%;
     color: #BDBDBD;
 }
 .section3{
-    width:80% ;
     height: 25%;
     display: flex;
     gap: 11px;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
 }
 .section3 p{
-    width:40%;
     height: 80%;
     display: flex;
     justify-content: start;
@@ -499,11 +448,150 @@ li, a{
     font-size: 12px;
     line-height: 14.52px;
 }
-.socialmediaa{
-    width: 40%;
+.socialmediaa{ 
     height: 80%;
     display: flex;
     gap: 10px;
     justify-content:end;
     align-items: center;
+}
+/* Styles for the desktop navigation */
+.division1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.division1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.division1 li {
+    margin-right: 20px;
+}
+
+.division1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for the hamburger icon */
+#hamburger-icon {
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 21px;
+    position: relative;
+}
+
+#hamburger-icon div {
+    background-color: #333;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+#hamburger-icon .bar1 {
+    top: 0;
+}
+
+#hamburger-icon .bar2 {
+    top: 9px;
+}
+
+#hamburger-icon .bar3 {
+    top: 18px;
+}
+
+/* Styles for the mobile menu */
+.mobile-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+}
+
+.mobile-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-menu a:hover {
+    background-color: #555;
+}
+@media ( max-width: 600px){
+    .box1{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .frame{
+        flex-direction: column;
+    }
+    .frame-p{
+        flex-wrap: wrap; 
+        gap: 10px; 
+    }
+    .frame-sweettooth{
+        flex-direction: column;
+    }
+    .food{
+        flex-wrap: wrap; 
+        gap: 10px; 
+    }
+    .box1 img{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .recipes{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .recipesBoxes{
+        width: 100%;
+        height: 100%;
+    }
+    .division1 {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    .mobile-menu.show {
+        display: block;
+    }
+    .box5{
+        width: 100%;
+    }
+    .latestrecipestitle{
+        justify-content: center;
+        align-items: center;
+        padding-left: 70px;
+    }
+    footer .section1{
+        flex-direction: column;
+        gap: 10px;
+        height: fit-content;
+    }
 }

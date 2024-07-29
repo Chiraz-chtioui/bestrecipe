@@ -5,29 +5,40 @@
 <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
 <title>BestRecipe</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="nav.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="nav.css">
 </head>
 <body>
   <header>
     <h1><strong>Best</strong>Recipe</h1>
-<div class="division1">
-   
-       <a href="#index.html">Home page</a>
-       <a href="#about">About</a>
-        <a href="#category">category</a>
-        <a href="#Blog">Blog</a>
-    
-</div>
-<div class="division2">
+    <div class="division2">
         <a href="https://www.facebook.com/profile.php?id=100009896768309&locale=fr_FR" target="_blank"><img src="image/facebook-logo.png" style="width: 34px; height:34px">
         </a>
         <a href="https://www.instagram.com/chiraz.chtioui/" target="_blank"><img src="image/insta-logo.png"  >
         </a>
-</div>
+    </div>
+    <nav class="division1">
+        <ul>
+            <li><a href="#index.html">Home page</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#category">category</a></li>
+            <li><a href="#Blog">Blog</a></li>
+        </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+            <li><a href="#index.html">Home page</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#category">category</a></li>
+            <li><a href="#Blog">Blog</a></li>
+        </ul>
+    </div>
 </header>
-  <main class="container">
+   <main>
     <div class="box1">
        <img src="image/cake-home.png" alt="cake" >
        <div class="text1">
@@ -74,7 +85,7 @@ initial-scale=1.0">
             </div>
         </div>
     </div>
-    <div class="box3">
+    <div class="box2">
         <h2>Sweet Tooth</h2>
         <div class="frame">
             <div class="frame-inner">
@@ -112,7 +123,7 @@ initial-scale=1.0">
             </div>
         </div>
     </div>
-    <div class="box4">
+    <div class="box2">
         <h2>popular categories</h2>
         <div class="frame-p">
             <div class="frame-inner-p">
@@ -151,7 +162,7 @@ initial-scale=1.0">
             </form>
         </div>
     </div>
-    <div class="HandPickedCollections">
+    <div class="box2">
         <h1 class="titleCollections"><b>Hand-Picked Collections</b></h1>
         <div class="recipes">
             <div class="recipesBoxes">
@@ -202,7 +213,7 @@ initial-scale=1.0">
             </div>
         </div>
     </div>
-    <div class="latestrecipes">
+    <div class="box2">
         <h1 class="latestrecipestitle"><b>Latest Recipes</b></h1>
         <div class="boiteg">
            <div class="food">
@@ -365,6 +376,12 @@ initial-scale=1.0">
            </div>
        </div>
     </div>   
-</footer>
+</footer> 
+<script>
+    function toggleMenu() {
+         var menu = document.querySelector('.mobile-menu');
+         menu.classList.toggle('show');
+    }
+</script>
 </body>
 </html>
