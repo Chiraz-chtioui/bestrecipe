@@ -87,8 +87,6 @@ nav ul{
     justify-content: center;
     align-items: center;
 }
-.box1 img{
-}
 .text1{
   
     height:Hug (285px) ;
@@ -457,8 +455,8 @@ li, a{
 }
 /* Styles for the desktop navigation */
 .division1 {
-    background-color: #333;
-    color: #fff;
+
+    color: #000000;
     padding: 10px;
 }
 
@@ -474,25 +472,20 @@ li, a{
 }
 
 .division1 a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
 /* Styles for the hamburger icon */
 #hamburger-icon {
     display: none;
-    cursor: pointer;
-    width: 30px;
-    height: 21px;
-    position: relative;
+    width: 50px;
+    
 }
 
-#hamburger-icon div {
-    background-color: #333;
-    height: 3px;
+.iconMenu {
     width: 100%;
-    position: absolute;
-    transition: 0.3s;
+    height: 100%;
 }
 
 #hamburger-icon .bar1 {
@@ -510,13 +503,20 @@ li, a{
 /* Styles for the mobile menu */
 .mobile-menu {
     display: none;
+    justify-content: center;
+    flex-direction: column;
     list-style-type: none;
-    padding: 0;
-    background-color: #333;
+    background-color: white;
     position: absolute;
-    top: 50px;
-    right: 0;
-    width: 200px;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 100%;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+
 }
 
 .mobile-menu li {
@@ -525,7 +525,7 @@ li, a{
 }
 
 .mobile-menu a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     display: block;
 }
@@ -551,6 +551,7 @@ li, a{
     .food{
         flex-wrap: wrap; 
         gap: 10px; 
+        justify-content: center;
     }
     .box1 img{
         width: 100%;
@@ -574,15 +575,18 @@ li, a{
         display: none;
     }
 
-    #hamburger-icon {
-        display: block;
+    #hamburger-icon{
+        display: flex;
+       
     }
 
     .mobile-menu.show {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .box5{
-        width: 100%;
+        width: 115%;
     }
     .latestrecipestitle{
         justify-content: center;
@@ -593,5 +597,28 @@ li, a{
         flex-direction: column;
         gap: 10px;
         height: fit-content;
+    }
+    .mini-box h1{
+        font-size: 23px;
+    }
+    .mini-box p{
+        font-size: 15px;
+        width: 80%;
+        text-align: center;
+        height: fit-content;
+    }
+    .mini-box .email{
+        width: 75%;
+    }
+    .boite{
+        width: 45%;
+        gap: 10px;
+    }
+    .boiteg{
+        gap: 10px;
+    }
+    .iconMenu{
+        width: 34px;
+        height: 34px;
     }
 }
